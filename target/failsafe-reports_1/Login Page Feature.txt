@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: Login Page Feature
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 88.06 s <<< FAILURE! - in Login Page Feature
+Login Page Title(Login Page Feature)  Time elapsed: 35.936 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+permission denied
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GAURAVNIMKANDE', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+
+Login Page Title(Login Page Feature)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "this.driver" is null
+
+Login Page Title(Login Page Feature)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+
